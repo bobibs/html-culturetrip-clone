@@ -834,14 +834,26 @@
 }
 
 .container-section-six .second-row {
+	margin-top: 30px;
 	text-align: center;
+	margin-left: 120px;
+	display: flex;
+}
+
+.container-section-six .second-row .first-img img {
+	height: 38px;
+	margin: 3px 0;
+}
+
+.container-section-six .second-row .first-img img,
+.container-section-six .second-row .second-img img {
+	width: 130px;
 }
 
 .container-section-six .second-row p {
 	color: var(--primary-color);
 	font-size: 0.65rem;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 25px;
 }
 
 /* Section 6 end */
