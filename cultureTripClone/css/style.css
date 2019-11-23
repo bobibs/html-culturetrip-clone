@@ -50,6 +50,10 @@
 	font-weight: bold;
 }
 
+.navbar .collapse .navbar-nav .nav-item:hover {
+	color: var(--secondary-color);
+}
+
 .navbar .collapse .navbar-nav .nav-sign {
 	border: 1px solid var(--primary-color);
 	border-radius: 30px;
