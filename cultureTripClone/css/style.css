@@ -11,6 +11,11 @@
 	--third-color: #ff0140;
 }
 
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
 /* Header start */
 
 .container-header {
@@ -776,3 +781,67 @@
 }
 
 /* Section 5 end */
+
+/* Section 6 start */
+
+.container-section-six {
+	margin-top: 20px;
+	background-color: black;
+	cursor: default;
+}
+
+.container-section-six .first-row {
+	display: flex;
+	margin: 0 30px;
+}
+
+.container-section-six .first-row > div {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 50px;
+	color: var(--primary-color);
+	font-size: 0.7rem;
+}
+
+.container-section-six .first-row > div p {
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+
+.container-section-six .first-row > div ul {
+	list-style: none;
+}
+
+.container-section-six .first-row > div ul li {
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.container-section-six .first-row > div ul li:hover {
+	color: var(--secondary-color);
+}
+
+.container-section-six .first-row .row-four ul li i {
+	background-color: #fff;
+	color: black;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	padding-top: 6px;
+	padding-left: 5px;
+	font-size: 0.8rem;
+	margin-right: 5px;
+}
+
+.container-section-six .second-row {
+	text-align: center;
+}
+
+.container-section-six .second-row p {
+	color: var(--primary-color);
+	font-size: 0.65rem;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/* Section 6 end */
